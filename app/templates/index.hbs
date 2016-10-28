@@ -2,15 +2,19 @@
   <h1>Code Queens</h1>
 </header>
 
+<hr>
 <h2>Input a question | | Output an Answer</h2>
+<hr>
 
+<div>
 <ul>
   {{#each model as |question|}}
-    <li>{{question.title}}</li>
-    <li>{{question.user}}</li>
-    <li>{{question.city}}</li>
-    <li>{{question.image}}</li>
+    <li><h1>{{question.title}}</h1></li>
+    <li>{{question.question}}</li>
+    <!-- <li><img src="{{question.image}}" alt="Image" width="400px"></li> -->
+    {{question-tile question=question}}
+  {{/each}}
 </ul>
-
+</div>
 
 {{#link-to 'contact'}}Contact Us{{/link-to}}
