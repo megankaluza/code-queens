@@ -4,4 +4,13 @@
 
 <h2>Input a question | | Output an Answer</h2>
 
+<ul>
+  {{#each model as |question|}}
+    <li>{{question.title}}</li>
+    <li>{{question.user}}</li>
+    <li>{{question.city}}</li>
+    <li>{{question.image}}</li>
+</ul>
+
+
 {{#link-to 'contact'}}Contact Us{{/link-to}}
