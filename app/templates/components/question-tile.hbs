@@ -1,6 +1,10 @@
-<ul>
-  <li>username: {{question.user}}</li>
-  <li>{{update-question question=question update="update"}}</li>
-
+<li>
+  <h1>{{question.title}}</h1>
+  {{question.user}}
+  {{question.question}}
+  <!-- {{update-question question=question update="update"}} -->
   {{#link-to 'question' question.id}}Show More{{/link-to}}
-</ul>
+</li>
+<li>username: {{question.user}}</li>
+
+<button {{action 'delete' rental}}>Delete Post</button>

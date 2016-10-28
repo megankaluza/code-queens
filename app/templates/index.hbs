@@ -9,9 +9,7 @@
 <div>
 <ul>
   {{#each model as |question|}}
-    <li><h1>{{question.title}}</h1></li>
-    <li>{{question.question}}</li>
-    {{question-tile question=question update="update"}}
+    {{question-tile question=question update="update" destroyQuestion="destroyQuestion"}}
   {{/each}}
 </ul>
 {{new-question saveQuestion2="saveQuestion3"}}

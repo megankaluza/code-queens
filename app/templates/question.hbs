@@ -2,15 +2,14 @@
   <h1>code&#x2654;queens</h1>
 </header>
 
-{{question-detail question=model update="update"}}
-
-
 <div>
 <ul>
-  {{#each model as |question|}}
-    <li><h1>{{question.title}}</h1></li>
-    <li>{{question.question}}</li>
-    {{question-tile question=question update="update"}}
+  {{#each model.question as |question|}}
+    <li><h1>{{model.title}}</h1></li>
+    <li>{{model.question}}</li>
+    <li><img src="{{model.image}}" alt="Image" width="400px"></li>
+    <!-- {{question-tile question=question update="update"}} -->
   {{/each}}
+    <!-- {{question-detail question=question update="update"}} -->
 </ul>
 </div>

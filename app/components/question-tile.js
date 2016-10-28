@@ -5,6 +5,11 @@ export default Ember.Component.extend({
   actions: {
     update(question, params) {
      this.sendAction('question', question, params);
-   }
+   },
+   delete(question) {
+    if (confirm('Are you sure?')) {
+      this.sendAction('destroyQuestion', question);
+      }
+    }
   }
 });
