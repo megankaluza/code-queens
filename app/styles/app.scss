@@ -1,14 +1,29 @@
-   $violet: #B7ADCF;
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script');
 
-   body {
-     width: 100%;
-     text-align: center;
-   }
+$violet: #B7ADCF;
 
-   li {
-     list-style-type: none,
-   }
+body {
+  width: 100%;
+  text-align: center;
+}
 
-   .jumbotron {
+h1,
+h2 {
+  font-family: 'Dancing Script', cursive;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+    font-family: 'Dancing Script', cursive;
+}
+
+footer {
+  font-family: 'Dancing Script', cursive;
+}
+
+.jumbotron {
      background-color: $violet;
-   }
+}
