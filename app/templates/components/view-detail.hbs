@@ -1,0 +1,8 @@
+<ul>
+  {{#each model as |question|}}
+    <li><h1>{{question.title}}</h1></li>
+    <li>{{question.question}}</li>
+    <li><img src="{{question.image}}" alt="Image" width="400px"></li>
+    <!-- {{question-tile question=question update="update"}} -->
+  {{/each}}
+</ul>

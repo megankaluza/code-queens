@@ -1,4 +1,6 @@
 <ul>
   <li>username: {{question.user}}</li>
-  {{update-question question=question update="update"}}
+  <li>{{update-question question=question update="update"}}</li>
+
+  <li>{{#link-to 'view' view.id}}Show More{{/link-to}}</li>
 </ul>
