@@ -41,7 +41,7 @@ export default Ember.Route.extend({
       newQuestion.save();
       this.transitionTo('index');
     }
-
+  // 
   //   update(question, params) {
   //     Object.keys(params).forEach(function(key) {
   //       if(params[key]!==undefined) {
@@ -56,5 +56,5 @@ export default Ember.Route.extend({
   //     question.destroyRecord();
   //     this.transitionTo('index');
   //   }
-  }
+  // }
 });
