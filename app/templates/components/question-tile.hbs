@@ -2,9 +2,9 @@
   <h1>{{question.title}}</h1>
   {{question.user}}
   {{question.question}}
-  <!-- {{update-question question=question update="update"}} -->
+  {{update-question question=question update="update"}}
   {{#link-to 'question' question.id}}Show More{{/link-to}}
 </li>
 <li>username: {{question.user}}</li>
 
-<button {{action 'delete' rental}}>Delete Post</button>
+<button {{action 'delete' question}}>Delete Post</button>
