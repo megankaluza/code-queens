@@ -1,30 +1,30 @@
 { "questions": [{
   "title": "Function",
-  "user": "Alice Peyton",
+  "user": "alice.wonderland",
   "city": "Portland",
   "question": "What does a function() mean? Have you learned something new or interesting lately?",
   "answer": "Make sure you know all the relevant news and blogs. You should be reading them regardless, but doing so on a daily basis during your job search is important. Be ready to talk casually and fluently about the latest web trends.",
-  "image": "https://s-media-cache-ak0.pinimg.com/originals/9f/34/89/9f3489488c6b7a94d5f5e0ed1dc298fe.jpg"
+  "image": "https://s-media-cache-ak0.pinimg.com/originals/83/b2/bc/83b2bc74c16f90c375fba73c810168cb.jpg"
 }, {
   "title": "Bootstrap",
-  "user": "Julia Reagan",
+  "user": "yasssss.queen",
   "city": "Brooklyn",
   "question": "How do you create a navigation bar using bootstrap? Why did you get into coding, programming, etc.?",
   "answer": "“Because I can make good $,” “I don’t like to dress up or shave,” and “because I loved the movie Hackers,” are not good enough answers. Well… a comment about Hackers might fly but make sure you have a real backstory that describes your “Aha!” moment.",
-  "image": "https://0.s3.envato.com/files/182743560/Screen-Shot/screen-shot-1.jpg"
+  "image": "https://s-media-cache-ak0.pinimg.com/originals/21/b2/cc/21b2cc6970fa5090c2dec381872e09e4.jpg"
 }, {
   "title": "PHP",
-  "user": "Mary Julian",
+  "user": "mari.jane",
   "city": "Seattle",
   "question": "How do I create a PHP database without any prior coding knowledge? What is your preferred development environment?",
   "answer": "This is your chance to talk shop and demonstrate some industry knowledge. Be prepared to talk about your favorite editor, browser, plug-ins, operating system, and other tools. Freshen up on your lingo.",
-  "image":  "https://i.ytimg.com/vi/aZg81KjnBiI/maxresdefault.jpg"
+  "image":  "https://s-media-cache-ak0.pinimg.com/originals/cc/49/59/cc4959c74b07c8e336aacc1e37abf3f3.jpg"
 }, {
   "title": "Graphic Design",
-  "user": "Riley Bailey",
+  "user": "ugly.worldwide",
   "city": "Missoula",
   "question": "I want to learn how to create a logo using Sketch and PhotoShop. How long would it take to create my own logo?  What is the coolest thing you ever coded? Do you have any personal projects you are working on?",
-  "anser": "These two questions are interchangeable. Any developer worth his weight had to practice somewhere or on something before they landed their first gig. If not, how did you get this interview anyway?! Review your past experiences, and even if they were boring to you, figure out a new frame of reference that demonstrates passion and a zest for learning.",
-  "image":  "https://support.sketchbook.com/hc/article_attachments/203083627/Login_or_Signin_from_web.png"
+  "answer": "These two questions are interchangeable. Any developer worth his weight had to practice somewhere or on something before they landed their first gig. If not, how did you get this interview anyway?! Review your past experiences, and even if they were boring to you, figure out a new frame of reference that demonstrates passion and a zest for learning.",
+  "image":  "https://s-media-cache-ak0.pinimg.com/originals/74/d1/97/74d1974c9ec871faf39318d8e87a7838.jpg"
   }]
 }
