@@ -2,6 +2,7 @@
 
 $violet: #B7ADCF;
 $gray: #CCD7E4;
+$sky: #009FB7;
 
 body {
   width: 100%;
@@ -14,9 +15,13 @@ button {
   background-color: $violet;
 }
 
-h1,
+h1 {
+  font-family: 'Dancing Script', cursive;
+}
+
 h2 {
   font-family: 'Dancing Script', cursive;
+  color: $sky;
 }
 
 li {
@@ -29,6 +34,11 @@ a {
 
 footer {
   font-family: 'Dancing Script', cursive;
+}
+
+image {
+  width: 200px;
+  border-radius: 50%;
 }
 
 .container {
