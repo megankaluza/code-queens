@@ -12,7 +12,9 @@
     <hr>
     A: {{model.answer}}
 
-  {{question-detail destroyQuestion="destroyQuestion" destroyReview="destroyReview"}}
+  <button {{action 'delete' question}}>Delete Post</button>
+
+  <!-- {{question-detail destroyQuestion="destroyQuestion" destroyReview="destroyReview"}} -->
 
   <!-- {{new-review saveReview="saveReview" entry=model}} -->
 
