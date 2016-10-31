@@ -1,7 +1,7 @@
 <ul>
   <h1>{{question.title}}</h1>
-  <li>username: {{question.user}}</li>
-  <li>{{question.question}}</li>
+  <h2>username: {{question.user}}</h2>
+  <li>Q: {{question.question}}</li>
   <!-- {{update-question question=question update="update"}} -->
   {{#link-to 'question' question.id}}Show More{{/link-to}}
 </ul>

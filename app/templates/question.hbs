@@ -4,7 +4,7 @@
 
   <ul>
     <li><h1>{{model.title}}</h1></li>
-    <li>username: {{model.user}}</li>
+    <h2>username: {{model.user}}</h2>
     <li><img src="{{model.image}}" alt="img" width="400px"></li>
   </ul>
   <div class="content">
@@ -16,7 +16,7 @@
   <button {{action 'delete' question}}>Delete Post</button>
   <button {{action 'update' question}}>Update</button>
 
-  <!-- {{question-detail destroyQuestion="destroyQuestion" destroyReview="destroyReview"}} -->
+  {{question-detail destroyQuestion="destroyQuestion" destroyReview="destroyReview"}}
 
   <!-- {{new-review saveReview="saveReview" entry=model}} -->
 
