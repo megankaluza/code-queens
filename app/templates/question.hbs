@@ -6,11 +6,11 @@
     <li><h1>{{model.title}}</h1></li>
     <li>Published By: {{model.user}}</li>
     <li><img src="{{model.image}}" alt="img" width="400px"></li>
-    <li><h1>{{model.content}}</h1></li>
   </ul>
   <div class="content">
-    {{model.question}}
+    Q: {{model.question}}
     <hr>
+    A: {{model.answer}}
 
   {{question-detail destroyQuestion="destroyQuestion" destroyReview="destroyReview"}}
 

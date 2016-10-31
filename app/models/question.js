@@ -5,5 +5,6 @@ export default DS.Model.extend({
   user: DS.attr(),
   city: DS.attr(),
   question: DS.attr(),
+  answer: DS.attr(),
   image: DS.attr()
 });
