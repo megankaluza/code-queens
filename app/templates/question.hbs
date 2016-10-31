@@ -2,14 +2,18 @@
   <h1>code&#x2654;queens</h1>
 </header>
 
-<div>
-<ul>
-  {{#each model.question as |question|}}
+  <ul>
     <li><h1>{{model.title}}</h1></li>
-    <li>{{model.question}}</li>
-    <li><img src="{{model.image}}" alt="Image" width="400px"></li>
-    <!-- {{question-tile question=question update="update"}} -->
-  {{/each}}
-    <!-- {{question-detail question=question update="update"}} -->
-</ul>
+    <li>Published By: {{model.user}}</li>
+    <li><img src="{{model.image}}" alt="img" width="400px"></li>
+    <li><h1>{{model.content}}</h1></li>
+  </ul>
+  <div class="content">
+    {{model.question}}
+    <hr>
+
+  {{question-detail destroyQuestion="destroyQuestion" destroyReview="destroyReview"}}
+
+  <!-- {{new-review saveReview="saveReview" entry=model}} -->
+
 </div>
