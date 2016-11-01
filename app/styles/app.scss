@@ -1,16 +1,22 @@
 @import url('https://fonts.googleapis.com/css?family=Dancing+Script');
+@import url('https://fonts.googleapis.com/css?family=Cinzel');
 
 $violet: #B7ADCF;
 $gray: #CCD7E4;
-$sky: #009FB7;
+$fox: #009FB7;
+$sky: #93B5C6;
+$rose: #E5625E;
+$off: #EFE9E7;
 
 body {
   width: 100%;
   text-align: center;
+  background-color: $off;
 }
 
 button {
-  margin-top:2%;
+  font-family: 'Cinzel', serif;
+  margin-top: 2%;
   border: none;
   background-color: $violet;
 }
@@ -21,19 +27,19 @@ h1 {
 
 h2 {
   font-family: 'Dancing Script', cursive;
-  color: $sky;
+  color: $fox;
 }
-
-// h3 {
-//   color: black;
-// }
 
 li {
   list-style-type: none;
+  font-family: 'Cinzel', serif;
 }
 
 a {
-  font-family: 'Dancing Script', cursive;
+  font-family: 'Cinzel', serif;
+  font-size: .8em;
+  color: $rose;
+  list-style-type: none;
 }
 
 footer {
@@ -43,6 +49,10 @@ footer {
 image {
   width: 200px;
   border-radius: 50%;
+}
+
+.content {
+  font-family: 'Cinzel', serif;
 }
 
 .container {
