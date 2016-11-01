@@ -11,7 +11,7 @@ export default Ember.Component.extend({
       answer: this.get('answer')
       };
       this.set('addNewResponse', false);
-      this.sendAction('saveResponse2', params);
+      this.sendAction('saveResponse', params);
     }
   }
 });
