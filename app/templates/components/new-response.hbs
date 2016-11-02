@@ -7,10 +7,16 @@
         {{input value=answer id="answer"}}
       </div>
 
+      <div class="form-group">
+        <label for="user">Username: </label>
+        {{input value=user id="user"}}
+      </div>
+
+
       <button {{action 'saveResponse1'}}>Save</button>
 
     </form>
   </div>
 {{else}}
-  <button {{action 'responseFormShow'}}>Add</button>
+  <button {{action 'responseFormShow'}}>Reply</button>
 {{/if}}

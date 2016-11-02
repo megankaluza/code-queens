@@ -8,10 +8,11 @@ export default Ember.Component.extend({
     },
     saveResponse1() {
       var params = {
-      answer: this.get('answer')
+      answer: this.get('answer'),
+      user: this.get('user'),
       };
       this.set('addNewResponse', false);
-      this.sendAction('saveResponse', params);
+      this.sendAction('saveResponse2', params);
     }
   }
 });
