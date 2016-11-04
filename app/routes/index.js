@@ -12,7 +12,6 @@ export default Ember.Route.extend({
         newQuestion.save();
         this.transitionTo('index');
       },
-
       saveResponse(params) {
         var newResponse = this.store.createRecord('response', params);
         newResponse.save();
@@ -27,13 +26,6 @@ export default Ember.Route.extend({
         question.save();
         this.transitionTo('index');
       },
-
-      // saveResponse(params) {
-      //   var newResponse = this.store.createRecord('response', params);
-      //   newResponse.save();
-      //   this.transitionTo('index');
-      // },
-
     destroyQuestion(question) {
       question.destroyRecord();
       this.transitionTo('index');

@@ -6,13 +6,13 @@ export default Ember.Component.extend({
     responseFormShow() {
       this.set('addNewResponse', true);
     },
-    saveResponse1() {
+    saveResponse() {
       var params = {
       answer: this.get('answer'),
       user: this.get('user'),
       };
       this.set('addNewResponse', false);
-      this.sendAction('saveResponse2', params);
+      this.sendAction('saveResponse', params);
     }
   }
 });

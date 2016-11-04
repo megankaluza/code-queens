@@ -6,5 +6,6 @@ export default DS.Model.extend({
   city: DS.attr(),
   question: DS.attr(),
   answer: DS.attr(),
+  timestamp: DS.attr(''),
   image: DS.attr()
 });
