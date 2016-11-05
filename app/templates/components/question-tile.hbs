@@ -1,8 +1,7 @@
 <ul>
-  <!-- <h1>{{question.title}}</h1>
-  <h2>username: {{question.user}}</h2> -->
   <h1>{{header}}</h1>
   <li>Q: {{question.question}}</li>
   <h3>{{#link-to 'question' question.id}}Read&#x2660;More{{/link-to}}</h3>
-  <hr>
+<button {{action 'delete' question}}>Delete</button>
 </ul>
+<hr>
