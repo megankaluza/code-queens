@@ -1,2 +1,7 @@
+<ul>
+  {{#each question.answers as |answer|}}
+    {{answer-tile answer=answer}}
+  {{/each}}
+</ul>
 <hr>
 <button {{action 'delete' question}}>Delete</button>

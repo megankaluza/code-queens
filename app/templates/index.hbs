@@ -7,14 +7,5 @@
   {{/each}}
 </ul>
 
-<ul>
-{{#each model.answers as |answer|}}
-  <li>{{answer.response}} - {{answer.rating}} - by {{answer.author}}</li>
-{{/each}}
-</ul>
-
-{{new-response saveResponse="saveResponse"}}
-
-
 {{new-question saveQuestion2="saveQuestion3" destroyQuestion="destroyQuestion"}}
 </div>
