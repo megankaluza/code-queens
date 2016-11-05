@@ -11,10 +11,11 @@ export default Ember.Component.extend({
     update(question, params) {
      this.sendAction('update', question, params);
    },
-   delete(question) {
-    if (confirm('Are you sure?')) {
-      this.sendAction('destroyQuestion', question);
-      }
-    }
+   // 
+  //  delete(question) {
+  //   if (confirm('Are you sure?')) {
+  //     this.sendAction('destroyQuestion', question);
+  //     }
+  //   }
   }
 });
