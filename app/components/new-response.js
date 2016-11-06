@@ -10,7 +10,7 @@ export default Ember.Component.extend({
       var params = {
         author: this.get('author'),
         response: this.get('response'),
-        inquiry: this.get('inquiry')
+        question: this.get('question')
       };
       this.set('addNewResponse', false);
       this.sendAction('saveResponse', params);
