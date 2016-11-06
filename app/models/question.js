@@ -4,7 +4,7 @@ export default DS.Model.extend({
   title: DS.attr(),
   user: DS.attr(),
   city: DS.attr(),
-  question: DS.attr(),
+  inquiry: DS.attr(),
   answer: DS.attr(),
   timestamp: DS.attr(),
   image: DS.attr(),

@@ -2,7 +2,7 @@
   "title": "Function",
   "user": "alice.wonderland",
   "city": "Portland",
-  "question": "What does a function() mean? Have you learned something new or interesting lately?",
+  "inquiry": "What does a function() mean? Have you learned something new or interesting lately?",
   "answer": "Make sure you know all the relevant news and blogs. You should be reading them regardless, but doing so on a daily basis during your job search is important. Be ready to talk casually and fluently about the latest web trends.",
   "timestamp": "October 31, 2016 10:30:33 am",
   "image": "http://data.whicdn.com/images/265329464/large.png"
@@ -10,7 +10,7 @@
   "title": "Bootstrap",
   "user": "yasssss.queen",
   "city": "Brooklyn",
-  "question": "How do you create a navigation bar using bootstrap? Why did you get into coding, programming, etc.?",
+  "inquiry": "How do you create a navigation bar using bootstrap? Why did you get into coding, programming, etc.?",
   "answer": "“Because I can make good $,” “I don’t like to dress up or shave,” and “because I loved the movie Hackers,” are not good enough answers. Well… a comment about Hackers might fly but make sure you have a real backstory that describes your “Aha!” moment.",
   "timestamp": "July 2, 2016 05:31:35 pm",
   "image": "http://data.whicdn.com/images/265329464/large.png"
@@ -18,7 +18,7 @@
   "title": "PHP",
   "user": "mari.jane",
   "city": "Seattle",
-  "question": "How do I create a PHP database without any prior coding knowledge? What is your preferred development environment?",
+  "inquiry": "How do I create a PHP database without any prior coding knowledge? What is your preferred development environment?",
   "answer": "This is your chance to talk shop and demonstrate some industry knowledge. Be prepared to talk about your favorite editor, browser, plug-ins, operating system, and other tools. Freshen up on your lingo.",
   "timestamp": "February 04, 2016 09:35:20 am",
   "image":  "http://data.whicdn.com/images/265329623/large.png"
@@ -26,18 +26,16 @@
   "title": "Graphic Design",
   "user": "ugly.worldwide",
   "city": "Missoula",
-  "question": "I want to learn how to create a logo using Sketch and PhotoShop. How long would it take to create my own logo?  What is the coolest thing you ever coded? Do you have any personal projects you are working on?",
+  "inquiry": "I want to learn how to create a logo using Sketch and PhotoShop. How long would it take to create my own logo?  What is the coolest thing you ever coded? Do you have any personal projects you are working on?",
   "answer": "These two questions are interchangeable. Any developer worth his weight had to practice somewhere or on something before they landed their first gig. If not, how did you get this interview anyway?! Review your past experiences, and even if they were boring to you, figure out a new frame of reference that demonstrates passion and a zest for learning.",
   "timestamp": "June 22, 2016 03:12:09 pm",
   "image":  "http://data.whicdn.com/images/265329694/large.png"
   }],
   "answers": [{
   "author": "kari.lovie",
-  "rating": 4,
   "response": "Nope"
 }, {
   "author": "leslie.styles1",
-  "rating": 9,
   "response": "It has an infinite number"
 }]
 }
