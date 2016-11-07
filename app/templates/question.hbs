@@ -1,16 +1,18 @@
-  <ul>
-    <li><h1>{{model.title}}</h1></li>
-    <h2>username: {{model.user}}</h2>
-    <li><img src="{{model.image}}" alt="img" width="250px"></li>
-  </ul>
-  <div class="content">
-    Q: {{model.inquiry}}
-    <hr>
-    A: {{model.answer}}
-    <br>
-
+<ul>
+  <li><h1>{{model.title}}</h1></li>
+  <li><img src="{{model.image}}" alt="img" width="250px"></li>
+</ul>
+<div class="content">
+  &#x024A;: {{model.inquiry}}
+  <hr>
+  &#x0226;: {{model.answer}}
+  <br>
+  <span>user&#x2640;name: {{model.user}}</span>
+  <br>
+  <br>
+  <br>
   {{question-detail question=model destroyQuestion="destroyQuestion"}}
   {{update-question question=model update="update"}}
-<hr>
+  <hr>
   {{new-response saveResponse="saveResponse" question=model}}
 </div>

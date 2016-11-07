@@ -1,31 +1,31 @@
 {{#if addNewQuestion}}
-  <h1>how can we &#x2654; you?</h1>
-  <div>
-    <form>
-      <div class="form-group">
-        <label for="title">Title: </label>
-        {{input value=title id="title"}}
-      </div>
+<h1>how can we &#x2654; you?</h1>
+<div>
+  <form>
+    <div class="form-group">
+      <label for="title">Title: </label>
+      {{input value=title id="title"}}
+    </div>
+        
+    <div class="form-group">
+      <label for="user">Username: </label>
+      {{input value=user id="user"}}
+    </div>
 
-      <div class="form-group">
-        <label for="user">Username: </label>
-        {{input value=user id="user"}}
-      </div>
+    <div class="form-group">
+      <label for="city">City: </label>
+      {{input value=city id="city"}}
+    </div>
 
-      <div class="form-group">
-        <label for="city">City: </label>
-        {{input value=city id="city"}}
-      </div>
+    <div class="form-group">
+      <label for="inquiry">Question?: </label>
+      {{input value=inquiry id="inquiry"}}
+    </div>
 
-      <div class="form-group">
-        <label for="inquiry">Question?: </label>
-        {{input value=inquiry id="inquiry"}}
-      </div>
+    <button {{action 'saveQuestion1'}}>Save</button>
 
-      <button {{action 'saveQuestion1'}}>Save</button>
-
-    </form>
-  </div>
+  </form>
+</div>
 {{else}}
-  <button {{action 'questionFormShow'}}>Ask a Question..</button>
+<button {{action 'questionFormShow'}}>Ask a Question..</button>
 {{/if}}

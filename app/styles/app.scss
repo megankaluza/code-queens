@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Dancing+Script');
 @import url('https://fonts.googleapis.com/css?family=Cinzel');
+@import url('https://fonts.googleapis.com/css?family=Special+Elite');
 
 $violet: #B7ADCF;
 $gray: #CCD7E4;
@@ -7,6 +8,7 @@ $fox: #009FB7;
 $sky: #93B5C6;
 $rose: #E5625E;
 $off: #EFE9E7;
+$white: #FFFFFF;
 
 body {
   width: 100%;
@@ -15,7 +17,7 @@ body {
 }
 
 button {
-  font-family: 'Cinzel', serif;
+  font-family: 'Dancing Script', cursive;
   margin-top: 2%;
   border: none;
   background-color: $violet;
@@ -23,7 +25,7 @@ button {
 
 h1,
 h3 {
-  font-family: 'Dancing Script', cursive;
+  font-family: 'Special Elite', cursive;
 }
 
 h2 {
@@ -31,13 +33,13 @@ h2 {
   color: $fox;
 }
 
-// hr {
-//   border-color: $rose;
-// }
+h4 {
+  font-family: 'Special Elite', cursive;
+}
 
 li {
   list-style-type: none;
-  font-family: 'Cinzel', serif;
+  font-family: 'Special Elite', cursive;
 }
 
 a {
@@ -56,8 +58,8 @@ image {
   border-radius: 50%;
 }
 
-.content {
-  font-family: 'Cinzel', serif;
+span {
+  color: $sky;
 }
 
 .container {
@@ -65,6 +67,10 @@ image {
   border: 1px solid black;
   background-color: white;
   box-shadow: 10px -10px 20px black;
+}
+
+.content {
+  font-family: 'Special Elite', cursive;
 }
 
 .favorite {
@@ -76,7 +82,7 @@ image {
 }
 
 .reply {
-  background-color: white;
+  background-color: $white;
 }
 
 .update {

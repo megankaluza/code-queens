@@ -1,21 +1,21 @@
 {{#if addNewResponse}}
-  <h1>reply</h1>
-  <div>
-    <form>
-      <div class="form-group">
-        <label for="reponse">Reply: </label>
-        {{input value=response id="response"}}
-      </div>
+<h1>reply</h1>
+<div>
+  <form>
+    <div class="form-group">
+      <label for="reponse">Reply: </label>
+      {{input value=response id="response"}}
+    </div>
 
-      <div class="form-group">
-        <label for="author">Username: </label>
-        {{input value=author id="author"}}
-      </div>
+    <div class="form-group">
+      <label for="author">Username: </label>
+      {{input value=author id="author"}}
+    </div>
 
-      <button {{action 'saveResponse'}}>Save</button>
+    <button {{action 'saveResponse'}}>Save</button>
 
-    </form>
-  </div>
+  </form>
+</div>
 {{else}}
-  <button class="reply" {{action 'responseFormShow'}}>Reply</button>
+<button class="reply" {{action 'responseFormShow'}}>Reply</button>
 {{/if}}
