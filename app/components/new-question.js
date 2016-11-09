@@ -11,7 +11,7 @@ export default Ember.Component.extend({
         title: this.get('title'),
         user: this.get('user'),
         city: this.get('city'),
-        inquiry: this.get('inquiry'),
+        inquiry: this.get('inquiry')
       };
       this.set('addNewQuestion', false);
       this.sendAction('saveQuestion2', params);
