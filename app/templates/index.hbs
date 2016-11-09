@@ -5,6 +5,7 @@
     {{#each model.questions as |question|}}
     {{question-tile question=question update="update" destroyQuestion="destroyQuestion"}}
     {{question-popularity question}}
+    {{favorite-tile question=question}}
     <hr>
     {{/each}}
   </ul>
