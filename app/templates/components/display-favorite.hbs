@@ -1,6 +1,10 @@
+<div class="container">
+  <h2>Favorites</h2>
+  <hr>
 {{#each favoriteQuestion.favorites as |favorite|}}
-  {{favorite.title}} <br>
-  {{favorite.image}} <br>
-  {{favorite.inquiry}} <br>
-  {{favorite.user}}
+  <h1>{{favorite.title}}</h1>
+  <img src={{favorite.image}} alt="Image">
+  <li>&#x024A;: {{favorite.inquiry}}</li>
+  <span><li>user&#x2640;name: {{favorite.user}}</li></span>
 {{/each}}
+</div>
