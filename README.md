@@ -1,5 +1,15 @@
 # Code-queens
 
+![screenshot](screen_shot.png)
+
+_Objectives:_
+
+* _A service has been implemented successfully._
+* _Project contains at least one functioning computed property._
+* _At least one custom helper is used to format data._
+* _Project is in a polished, portfolio-quality state._
+
+
 A website that allows women coders to collaborate and share questions and answers about common issues that pertain to designing and programming.
 
 ## Prerequisites
